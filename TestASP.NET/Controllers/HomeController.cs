@@ -15,7 +15,7 @@ namespace TestASP.NET.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = logger; // Разобраться с логгером
         }
 
         public IActionResult Index()
